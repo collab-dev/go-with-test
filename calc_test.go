@@ -9,9 +9,9 @@ func TestAdd(t *testing.T) {
 	}
 }
 
-// func TestAddMore(t *testing.T) {
-// 	total := add(3, 3)
-// 	if total != 6 {
-// 		t.Error("Sum was incorrect")
-// 	}
-// }
+func TestAddMore(t *testing.T) {
+	total := add(3, 3)
+	if total != 6 {
+		t.Error("Sum was incorrect")
+	}
+}
